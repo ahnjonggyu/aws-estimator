@@ -1,0 +1,1883 @@
+{
+  "_meta": {
+    "region": "ap-northeast-2",
+    "updated": "2026-06-29T03:45:54.030Z",
+    "source": "AWS Price List Bulk API (current)",
+    "filter": "세대 7 이상 / EC2 Linux·Shared / RDS Single-AZ",
+    "note": "정보 제공용 추정치. 무료티어·예약·SP·세금 미반영."
+  },
+  "ec2": {
+    "c7g.12xlarge": {
+      "hourly": 1.9584,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c7g.16xlarge": {
+      "hourly": 2.6112,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c7g.2xlarge": {
+      "hourly": 0.3264,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c7g.4xlarge": {
+      "hourly": 0.6528,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c7g.8xlarge": {
+      "hourly": 1.3056,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c7g.large": {
+      "hourly": 0.0816,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c7g.medium": {
+      "hourly": 0.0408,
+      "vcpu": 1,
+      "memory": "2 GiB"
+    },
+    "c7g.xlarge": {
+      "hourly": 0.1632,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c7gd.12xlarge": {
+      "hourly": 2.495,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c7gd.16xlarge": {
+      "hourly": 3.3267,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c7gd.2xlarge": {
+      "hourly": 0.4158,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c7gd.4xlarge": {
+      "hourly": 0.8317,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c7gd.8xlarge": {
+      "hourly": 1.6634,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c7gd.large": {
+      "hourly": 0.104,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c7gd.medium": {
+      "hourly": 0.052,
+      "vcpu": 1,
+      "memory": "2 GiB"
+    },
+    "c7gd.xlarge": {
+      "hourly": 0.2079,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c7i-flex.12xlarge": {
+      "hourly": 2.29824,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c7i-flex.16xlarge": {
+      "hourly": 3.06432,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c7i-flex.2xlarge": {
+      "hourly": 0.38304,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c7i-flex.4xlarge": {
+      "hourly": 0.76608,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c7i-flex.8xlarge": {
+      "hourly": 1.53216,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c7i-flex.large": {
+      "hourly": 0.09576,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c7i-flex.xlarge": {
+      "hourly": 0.19152,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c7i.12xlarge": {
+      "hourly": 2.4192,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c7i.16xlarge": {
+      "hourly": 3.2256,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c7i.24xlarge": {
+      "hourly": 4.8384,
+      "vcpu": 96,
+      "memory": "192 GiB"
+    },
+    "c7i.2xlarge": {
+      "hourly": 0.4032,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c7i.48xlarge": {
+      "hourly": 9.6768,
+      "vcpu": 192,
+      "memory": "384 GiB"
+    },
+    "c7i.4xlarge": {
+      "hourly": 0.8064,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c7i.8xlarge": {
+      "hourly": 1.6128,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c7i.large": {
+      "hourly": 0.1008,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c7i.xlarge": {
+      "hourly": 0.2016,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c8g.12xlarge": {
+      "hourly": 2.15424,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c8g.16xlarge": {
+      "hourly": 2.87232,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c8g.24xlarge": {
+      "hourly": 4.30848,
+      "vcpu": 96,
+      "memory": "192 GiB"
+    },
+    "c8g.2xlarge": {
+      "hourly": 0.35904,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c8g.48xlarge": {
+      "hourly": 8.61696,
+      "vcpu": 192,
+      "memory": "384 GiB"
+    },
+    "c8g.4xlarge": {
+      "hourly": 0.71808,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c8g.8xlarge": {
+      "hourly": 1.43616,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c8g.large": {
+      "hourly": 0.08976,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c8g.medium": {
+      "hourly": 0.04488,
+      "vcpu": 1,
+      "memory": "2 GiB"
+    },
+    "c8g.xlarge": {
+      "hourly": 0.17952,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c8gn.12xlarge": {
+      "hourly": 3.2126,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c8gn.16xlarge": {
+      "hourly": 4.2835,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c8gn.24xlarge": {
+      "hourly": 6.4253,
+      "vcpu": 96,
+      "memory": "192 GiB"
+    },
+    "c8gn.2xlarge": {
+      "hourly": 0.5354,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c8gn.48xlarge": {
+      "hourly": 12.8506,
+      "vcpu": 192,
+      "memory": "384 GiB"
+    },
+    "c8gn.4xlarge": {
+      "hourly": 1.0709,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c8gn.8xlarge": {
+      "hourly": 2.1418,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c8gn.large": {
+      "hourly": 0.1339,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c8gn.medium": {
+      "hourly": 0.0669,
+      "vcpu": 1,
+      "memory": "2 GiB"
+    },
+    "c8gn.xlarge": {
+      "hourly": 0.2677,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c8i-flex.12xlarge": {
+      "hourly": 2.4132,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c8i-flex.16xlarge": {
+      "hourly": 3.2176,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c8i-flex.2xlarge": {
+      "hourly": 0.4022,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c8i-flex.4xlarge": {
+      "hourly": 0.8044,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c8i-flex.8xlarge": {
+      "hourly": 1.6088,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c8i-flex.large": {
+      "hourly": 0.10055,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c8i-flex.xlarge": {
+      "hourly": 0.2011,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "c8i.12xlarge": {
+      "hourly": 2.54016,
+      "vcpu": 48,
+      "memory": "96 GiB"
+    },
+    "c8i.16xlarge": {
+      "hourly": 3.38688,
+      "vcpu": 64,
+      "memory": "128 GiB"
+    },
+    "c8i.24xlarge": {
+      "hourly": 5.08032,
+      "vcpu": 96,
+      "memory": "192 GiB"
+    },
+    "c8i.2xlarge": {
+      "hourly": 0.42336,
+      "vcpu": 8,
+      "memory": "16 GiB"
+    },
+    "c8i.32xlarge": {
+      "hourly": 6.77376,
+      "vcpu": 128,
+      "memory": "256 GiB"
+    },
+    "c8i.48xlarge": {
+      "hourly": 10.16064,
+      "vcpu": 192,
+      "memory": "384 GiB"
+    },
+    "c8i.4xlarge": {
+      "hourly": 0.84672,
+      "vcpu": 16,
+      "memory": "32 GiB"
+    },
+    "c8i.8xlarge": {
+      "hourly": 1.69344,
+      "vcpu": 32,
+      "memory": "64 GiB"
+    },
+    "c8i.96xlarge": {
+      "hourly": 20.32128,
+      "vcpu": 384,
+      "memory": "768 GiB"
+    },
+    "c8i.large": {
+      "hourly": 0.10584,
+      "vcpu": 2,
+      "memory": "4 GiB"
+    },
+    "c8i.xlarge": {
+      "hourly": 0.21168,
+      "vcpu": 4,
+      "memory": "8 GiB"
+    },
+    "g7e.12xlarge": {
+      "hourly": 10.1873,
+      "vcpu": 48,
+      "memory": "512 GiB"
+    },
+    "g7e.24xlarge": {
+      "hourly": 20.3746,
+      "vcpu": 96,
+      "memory": "1024 GiB"
+    },
+    "g7e.2xlarge": {
+      "hourly": 4.13478,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "g7e.48xlarge": {
+      "hourly": 40.74921,
+      "vcpu": 192,
+      "memory": "2048 GiB"
+    },
+    "g7e.4xlarge": {
+      "hourly": 4.91553,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "g7e.8xlarge": {
+      "hourly": 6.47703,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "i7i.12xlarge": {
+      "hourly": 5.3143,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "i7i.16xlarge": {
+      "hourly": 7.0858,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "i7i.24xlarge": {
+      "hourly": 10.6286,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "i7i.2xlarge": {
+      "hourly": 0.8857,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "i7i.48xlarge": {
+      "hourly": 21.2573,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "i7i.4xlarge": {
+      "hourly": 1.7714,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "i7i.8xlarge": {
+      "hourly": 3.5429,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "i7i.large": {
+      "hourly": 0.2214,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "i7i.xlarge": {
+      "hourly": 0.4429,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "i7ie.12xlarge": {
+      "hourly": 7.3416,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "i7ie.18xlarge": {
+      "hourly": 11.0124,
+      "vcpu": 72,
+      "memory": "576 GiB"
+    },
+    "i7ie.24xlarge": {
+      "hourly": 14.6832,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "i7ie.2xlarge": {
+      "hourly": 1.2236,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "i7ie.3xlarge": {
+      "hourly": 1.8354,
+      "vcpu": 12,
+      "memory": "96 GiB"
+    },
+    "i7ie.48xlarge": {
+      "hourly": 29.3664,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "i7ie.6xlarge": {
+      "hourly": 3.6708,
+      "vcpu": 24,
+      "memory": "192 GiB"
+    },
+    "i7ie.large": {
+      "hourly": 0.3059,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "i7ie.xlarge": {
+      "hourly": 0.6118,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "i8g.12xlarge": {
+      "hourly": 4.8312,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "i8g.16xlarge": {
+      "hourly": 6.4416,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "i8g.24xlarge": {
+      "hourly": 9.6624,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "i8g.2xlarge": {
+      "hourly": 0.8052,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "i8g.48xlarge": {
+      "hourly": 19.3248,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "i8g.4xlarge": {
+      "hourly": 1.6104,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "i8g.8xlarge": {
+      "hourly": 3.2208,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "i8g.large": {
+      "hourly": 0.2013,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "i8g.xlarge": {
+      "hourly": 0.4026,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "i8ge.12xlarge": {
+      "hourly": 6.7032,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "i8ge.18xlarge": {
+      "hourly": 10.0548,
+      "vcpu": 72,
+      "memory": "576 GiB"
+    },
+    "i8ge.24xlarge": {
+      "hourly": 13.4064,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "i8ge.2xlarge": {
+      "hourly": 1.1172,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "i8ge.3xlarge": {
+      "hourly": 1.6758,
+      "vcpu": 12,
+      "memory": "96 GiB"
+    },
+    "i8ge.48xlarge": {
+      "hourly": 26.8128,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "i8ge.6xlarge": {
+      "hourly": 3.3516,
+      "vcpu": 24,
+      "memory": "192 GiB"
+    },
+    "i8ge.large": {
+      "hourly": 0.2793,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "i8ge.xlarge": {
+      "hourly": 0.5586,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "m7g.12xlarge": {
+      "hourly": 2.4072,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m7g.16xlarge": {
+      "hourly": 3.2096,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m7g.2xlarge": {
+      "hourly": 0.4012,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m7g.4xlarge": {
+      "hourly": 0.8024,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m7g.8xlarge": {
+      "hourly": 1.6048,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m7g.large": {
+      "hourly": 0.1003,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m7g.medium": {
+      "hourly": 0.0502,
+      "vcpu": 1,
+      "memory": "4 GiB"
+    },
+    "m7g.xlarge": {
+      "hourly": 0.2006,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m7gd.12xlarge": {
+      "hourly": 3.1526,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m7gd.16xlarge": {
+      "hourly": 4.2035,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m7gd.2xlarge": {
+      "hourly": 0.5254,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m7gd.4xlarge": {
+      "hourly": 1.0509,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m7gd.8xlarge": {
+      "hourly": 2.1018,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m7gd.large": {
+      "hourly": 0.1314,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m7gd.medium": {
+      "hourly": 0.0657,
+      "vcpu": 1,
+      "memory": "4 GiB"
+    },
+    "m7gd.xlarge": {
+      "hourly": 0.2627,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m7i-flex.12xlarge": {
+      "hourly": 2.82504,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m7i-flex.16xlarge": {
+      "hourly": 3.76672,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m7i-flex.2xlarge": {
+      "hourly": 0.47084,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m7i-flex.4xlarge": {
+      "hourly": 0.94168,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m7i-flex.8xlarge": {
+      "hourly": 1.88336,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m7i-flex.large": {
+      "hourly": 0.11771,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m7i-flex.xlarge": {
+      "hourly": 0.23542,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m7i.12xlarge": {
+      "hourly": 2.9736,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m7i.16xlarge": {
+      "hourly": 3.9648,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m7i.24xlarge": {
+      "hourly": 5.9472,
+      "vcpu": 96,
+      "memory": "384 GiB"
+    },
+    "m7i.2xlarge": {
+      "hourly": 0.4956,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m7i.48xlarge": {
+      "hourly": 11.8944,
+      "vcpu": 192,
+      "memory": "768 GiB"
+    },
+    "m7i.4xlarge": {
+      "hourly": 0.9912,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m7i.8xlarge": {
+      "hourly": 1.9824,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m7i.large": {
+      "hourly": 0.1239,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m7i.xlarge": {
+      "hourly": 0.2478,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m8g.12xlarge": {
+      "hourly": 2.64816,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m8g.16xlarge": {
+      "hourly": 3.53088,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m8g.24xlarge": {
+      "hourly": 5.29632,
+      "vcpu": 96,
+      "memory": "384 GiB"
+    },
+    "m8g.2xlarge": {
+      "hourly": 0.44136,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m8g.48xlarge": {
+      "hourly": 10.59264,
+      "vcpu": 192,
+      "memory": "768 GiB"
+    },
+    "m8g.4xlarge": {
+      "hourly": 0.88272,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m8g.8xlarge": {
+      "hourly": 1.76544,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m8g.large": {
+      "hourly": 0.11034,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m8g.medium": {
+      "hourly": 0.05517,
+      "vcpu": 1,
+      "memory": "4 GiB"
+    },
+    "m8g.xlarge": {
+      "hourly": 0.22068,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m8i-flex.12xlarge": {
+      "hourly": 2.9664,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m8i-flex.16xlarge": {
+      "hourly": 3.9552,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m8i-flex.2xlarge": {
+      "hourly": 0.4944,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m8i-flex.4xlarge": {
+      "hourly": 0.9888,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m8i-flex.8xlarge": {
+      "hourly": 1.9776,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m8i-flex.large": {
+      "hourly": 0.1236,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m8i-flex.xlarge": {
+      "hourly": 0.2472,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "m8i.12xlarge": {
+      "hourly": 3.12216,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "m8i.16xlarge": {
+      "hourly": 4.16288,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "m8i.24xlarge": {
+      "hourly": 6.24432,
+      "vcpu": 96,
+      "memory": "384 GiB"
+    },
+    "m8i.2xlarge": {
+      "hourly": 0.52036,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "m8i.32xlarge": {
+      "hourly": 8.32576,
+      "vcpu": 128,
+      "memory": "512 GiB"
+    },
+    "m8i.48xlarge": {
+      "hourly": 12.48864,
+      "vcpu": 192,
+      "memory": "768 GiB"
+    },
+    "m8i.4xlarge": {
+      "hourly": 1.04072,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "m8i.8xlarge": {
+      "hourly": 2.08144,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "m8i.96xlarge": {
+      "hourly": 24.97728,
+      "vcpu": 384,
+      "memory": "1536 GiB"
+    },
+    "m8i.large": {
+      "hourly": 0.13009,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "m8i.xlarge": {
+      "hourly": 0.26018,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "r7g.12xlarge": {
+      "hourly": 3.1008,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r7g.16xlarge": {
+      "hourly": 4.1344,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r7g.2xlarge": {
+      "hourly": 0.5168,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r7g.4xlarge": {
+      "hourly": 1.0336,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r7g.8xlarge": {
+      "hourly": 2.0672,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r7g.large": {
+      "hourly": 0.1292,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r7g.medium": {
+      "hourly": 0.0646,
+      "vcpu": 1,
+      "memory": "8 GiB"
+    },
+    "r7g.xlarge": {
+      "hourly": 0.2584,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r7gd.12xlarge": {
+      "hourly": 3.925,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r7gd.16xlarge": {
+      "hourly": 5.2333,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r7gd.2xlarge": {
+      "hourly": 0.6542,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r7gd.4xlarge": {
+      "hourly": 1.3083,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r7gd.8xlarge": {
+      "hourly": 2.6166,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r7gd.large": {
+      "hourly": 0.1635,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r7gd.medium": {
+      "hourly": 0.0818,
+      "vcpu": 1,
+      "memory": "8 GiB"
+    },
+    "r7gd.xlarge": {
+      "hourly": 0.3271,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r7i.12xlarge": {
+      "hourly": 3.8304,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r7i.16xlarge": {
+      "hourly": 5.1072,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r7i.24xlarge": {
+      "hourly": 7.6608,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "r7i.2xlarge": {
+      "hourly": 0.6384,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r7i.48xlarge": {
+      "hourly": 15.3216,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "r7i.4xlarge": {
+      "hourly": 1.2768,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r7i.8xlarge": {
+      "hourly": 2.5536,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r7i.large": {
+      "hourly": 0.1596,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r7i.xlarge": {
+      "hourly": 0.3192,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r8g.12xlarge": {
+      "hourly": 3.41088,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r8g.16xlarge": {
+      "hourly": 4.54784,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r8g.24xlarge": {
+      "hourly": 6.82176,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "r8g.2xlarge": {
+      "hourly": 0.56848,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r8g.48xlarge": {
+      "hourly": 13.64352,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "r8g.4xlarge": {
+      "hourly": 1.13696,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r8g.8xlarge": {
+      "hourly": 2.27392,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r8g.large": {
+      "hourly": 0.14212,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r8g.medium": {
+      "hourly": 0.07106,
+      "vcpu": 1,
+      "memory": "8 GiB"
+    },
+    "r8g.xlarge": {
+      "hourly": 0.28424,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r8gd.12xlarge": {
+      "hourly": 4.23888,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r8gd.16xlarge": {
+      "hourly": 5.65184,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r8gd.24xlarge": {
+      "hourly": 8.47776,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "r8gd.2xlarge": {
+      "hourly": 0.70648,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r8gd.48xlarge": {
+      "hourly": 16.95552,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "r8gd.4xlarge": {
+      "hourly": 1.41296,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r8gd.8xlarge": {
+      "hourly": 2.82592,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r8gd.large": {
+      "hourly": 0.17662,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r8gd.medium": {
+      "hourly": 0.08831,
+      "vcpu": 1,
+      "memory": "8 GiB"
+    },
+    "r8gd.xlarge": {
+      "hourly": 0.35324,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r8i-flex.12xlarge": {
+      "hourly": 3.8208,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r8i-flex.16xlarge": {
+      "hourly": 5.0944,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r8i-flex.2xlarge": {
+      "hourly": 0.6368,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r8i-flex.4xlarge": {
+      "hourly": 1.2736,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r8i-flex.8xlarge": {
+      "hourly": 2.5472,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r8i-flex.large": {
+      "hourly": 0.1592,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r8i-flex.xlarge": {
+      "hourly": 0.3184,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "r8i.12xlarge": {
+      "hourly": 4.02192,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "r8i.16xlarge": {
+      "hourly": 5.36256,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "r8i.24xlarge": {
+      "hourly": 8.04384,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "r8i.2xlarge": {
+      "hourly": 0.67032,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "r8i.32xlarge": {
+      "hourly": 10.72512,
+      "vcpu": 128,
+      "memory": "1024 GiB"
+    },
+    "r8i.48xlarge": {
+      "hourly": 16.08768,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "r8i.4xlarge": {
+      "hourly": 1.34064,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "r8i.8xlarge": {
+      "hourly": 2.68128,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "r8i.96xlarge": {
+      "hourly": 32.17536,
+      "vcpu": 384,
+      "memory": "3072 GiB"
+    },
+    "r8i.large": {
+      "hourly": 0.16758,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "r8i.xlarge": {
+      "hourly": 0.33516,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "u7i-12tb.224xlarge": {
+      "hourly": 151.49759,
+      "vcpu": 896,
+      "memory": "12288 GiB"
+    },
+    "u7i-6tb.112xlarge": {
+      "hourly": 75.74705,
+      "vcpu": 448,
+      "memory": "6144 GiB"
+    },
+    "u7i-8tb.112xlarge": {
+      "hourly": 100.99606,
+      "vcpu": 448,
+      "memory": "8192 GiB"
+    },
+    "u7in-16tb.224xlarge": {
+      "hourly": 217.71638,
+      "vcpu": 896,
+      "memory": "16384 GiB"
+    },
+    "u7in-24tb.224xlarge": {
+      "hourly": 326.6006,
+      "vcpu": 896,
+      "memory": "24576 GiB"
+    },
+    "x8aedz.12xlarge": {
+      "hourly": 20.02056,
+      "vcpu": 48,
+      "memory": "1536 GiB"
+    },
+    "x8aedz.24xlarge": {
+      "hourly": 40.04112,
+      "vcpu": 96,
+      "memory": "3072 GiB"
+    },
+    "x8aedz.3xlarge": {
+      "hourly": 5.00514,
+      "vcpu": 12,
+      "memory": "384 GiB"
+    },
+    "x8aedz.6xlarge": {
+      "hourly": 10.01028,
+      "vcpu": 24,
+      "memory": "768 GiB"
+    },
+    "x8aedz.large": {
+      "hourly": 0.83419,
+      "vcpu": 2,
+      "memory": "64 GiB"
+    },
+    "x8aedz.xlarge": {
+      "hourly": 1.66838,
+      "vcpu": 4,
+      "memory": "128 GiB"
+    },
+    "x8i.12xlarge": {
+      "hourly": 7.61544,
+      "vcpu": 48,
+      "memory": "768 GiB"
+    },
+    "x8i.16xlarge": {
+      "hourly": 10.15392,
+      "vcpu": 64,
+      "memory": "1024 GiB"
+    },
+    "x8i.24xlarge": {
+      "hourly": 15.23088,
+      "vcpu": 96,
+      "memory": "1536 GiB"
+    },
+    "x8i.2xlarge": {
+      "hourly": 1.26924,
+      "vcpu": 8,
+      "memory": "128 GiB"
+    },
+    "x8i.32xlarge": {
+      "hourly": 20.30784,
+      "vcpu": 128,
+      "memory": "2048 GiB"
+    },
+    "x8i.48xlarge": {
+      "hourly": 30.46176,
+      "vcpu": 192,
+      "memory": "3072 GiB"
+    },
+    "x8i.4xlarge": {
+      "hourly": 2.53848,
+      "vcpu": 16,
+      "memory": "256 GiB"
+    },
+    "x8i.64xlarge": {
+      "hourly": 40.61568,
+      "vcpu": 256,
+      "memory": "4096 GiB"
+    },
+    "x8i.8xlarge": {
+      "hourly": 5.07696,
+      "vcpu": 32,
+      "memory": "512 GiB"
+    },
+    "x8i.96xlarge": {
+      "hourly": 58.70235,
+      "vcpu": 384,
+      "memory": "6144 GiB"
+    },
+    "x8i.large": {
+      "hourly": 0.31731,
+      "vcpu": 2,
+      "memory": "32 GiB"
+    },
+    "x8i.xlarge": {
+      "hourly": 0.63462,
+      "vcpu": 4,
+      "memory": "64 GiB"
+    }
+  },
+  "rds": {
+    "MySQL|db.m7g.12xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.12xlarge",
+      "hourly": 5.6256,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "MySQL|db.m7g.16xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.16xlarge",
+      "hourly": 7.5008,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "MySQL|db.m7g.2xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.2xlarge",
+      "hourly": 0.9376,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "MySQL|db.m7g.4xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.4xlarge",
+      "hourly": 1.8752,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "MySQL|db.m7g.8xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.8xlarge",
+      "hourly": 3.7504,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "MySQL|db.m7g.large": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.large",
+      "hourly": 0.2344,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "MySQL|db.m7g.xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7g.xlarge",
+      "hourly": 0.4688,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "MySQL|db.m7i.12xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.12xlarge",
+      "hourly": 5.928,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "MySQL|db.m7i.16xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.16xlarge",
+      "hourly": 7.904,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "MySQL|db.m7i.24xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.24xlarge",
+      "hourly": 11.856,
+      "vcpu": 96,
+      "memory": "384 GiB"
+    },
+    "MySQL|db.m7i.2xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.2xlarge",
+      "hourly": 0.988,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "MySQL|db.m7i.48xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.48xlarge",
+      "hourly": 23.712,
+      "vcpu": 192,
+      "memory": "768 GiB"
+    },
+    "MySQL|db.m7i.4xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.4xlarge",
+      "hourly": 1.976,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "MySQL|db.m7i.8xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.8xlarge",
+      "hourly": 3.952,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "MySQL|db.m7i.large": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.large",
+      "hourly": 0.247,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "MySQL|db.m7i.xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.m7i.xlarge",
+      "hourly": 0.494,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "MySQL|db.r7g.12xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.12xlarge",
+      "hourly": 6.8856,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "MySQL|db.r7g.16xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.16xlarge",
+      "hourly": 9.1808,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "MySQL|db.r7g.2xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.2xlarge",
+      "hourly": 1.1476,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "MySQL|db.r7g.4xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.4xlarge",
+      "hourly": 2.2952,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "MySQL|db.r7g.8xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.8xlarge",
+      "hourly": 4.5904,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "MySQL|db.r7g.large": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.large",
+      "hourly": 0.2869,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "MySQL|db.r7g.xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7g.xlarge",
+      "hourly": 0.5738,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "MySQL|db.r7i.12xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.12xlarge",
+      "hourly": 7.2,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "MySQL|db.r7i.16xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.16xlarge",
+      "hourly": 9.6,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "MySQL|db.r7i.24xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.24xlarge",
+      "hourly": 14.4,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "MySQL|db.r7i.2xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.2xlarge",
+      "hourly": 1.2,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "MySQL|db.r7i.48xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.48xlarge",
+      "hourly": 28.8,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "MySQL|db.r7i.4xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.4xlarge",
+      "hourly": 2.4,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "MySQL|db.r7i.8xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.8xlarge",
+      "hourly": 4.8,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "MySQL|db.r7i.large": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.large",
+      "hourly": 0.3,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "MySQL|db.r7i.xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r7i.xlarge",
+      "hourly": 0.6,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "MySQL|db.r8g.12xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.12xlarge",
+      "hourly": 6.886,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "MySQL|db.r8g.16xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.16xlarge",
+      "hourly": 9.181,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "MySQL|db.r8g.24xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.24xlarge",
+      "hourly": 13.771,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "MySQL|db.r8g.2xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.2xlarge",
+      "hourly": 1.148,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "MySQL|db.r8g.48xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.48xlarge",
+      "hourly": 27.542,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "MySQL|db.r8g.4xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.4xlarge",
+      "hourly": 2.295,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "MySQL|db.r8g.8xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.8xlarge",
+      "hourly": 4.59,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "MySQL|db.r8g.large": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.large",
+      "hourly": 0.287,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "MySQL|db.r8g.xlarge": {
+      "engine": "MySQL",
+      "instanceType": "db.r8g.xlarge",
+      "hourly": 0.574,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "PostgreSQL|db.m7g.12xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.12xlarge",
+      "hourly": 5.6256,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "PostgreSQL|db.m7g.16xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.16xlarge",
+      "hourly": 7.5008,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "PostgreSQL|db.m7g.2xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.2xlarge",
+      "hourly": 0.9376,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "PostgreSQL|db.m7g.4xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.4xlarge",
+      "hourly": 1.8752,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "PostgreSQL|db.m7g.8xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.8xlarge",
+      "hourly": 3.7504,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "PostgreSQL|db.m7g.large": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.large",
+      "hourly": 0.2344,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "PostgreSQL|db.m7g.xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7g.xlarge",
+      "hourly": 0.4688,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "PostgreSQL|db.m7i.12xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.12xlarge",
+      "hourly": 5.928,
+      "vcpu": 48,
+      "memory": "192 GiB"
+    },
+    "PostgreSQL|db.m7i.16xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.16xlarge",
+      "hourly": 7.904,
+      "vcpu": 64,
+      "memory": "256 GiB"
+    },
+    "PostgreSQL|db.m7i.24xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.24xlarge",
+      "hourly": 11.856,
+      "vcpu": 96,
+      "memory": "384 GiB"
+    },
+    "PostgreSQL|db.m7i.2xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.2xlarge",
+      "hourly": 0.988,
+      "vcpu": 8,
+      "memory": "32 GiB"
+    },
+    "PostgreSQL|db.m7i.48xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.48xlarge",
+      "hourly": 23.712,
+      "vcpu": 192,
+      "memory": "768 GiB"
+    },
+    "PostgreSQL|db.m7i.4xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.4xlarge",
+      "hourly": 1.976,
+      "vcpu": 16,
+      "memory": "64 GiB"
+    },
+    "PostgreSQL|db.m7i.8xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.8xlarge",
+      "hourly": 3.952,
+      "vcpu": 32,
+      "memory": "128 GiB"
+    },
+    "PostgreSQL|db.m7i.large": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.large",
+      "hourly": 0.247,
+      "vcpu": 2,
+      "memory": "8 GiB"
+    },
+    "PostgreSQL|db.m7i.xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.m7i.xlarge",
+      "hourly": 0.494,
+      "vcpu": 4,
+      "memory": "16 GiB"
+    },
+    "PostgreSQL|db.r7g.12xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.12xlarge",
+      "hourly": 6.8856,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "PostgreSQL|db.r7g.16xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.16xlarge",
+      "hourly": 9.1808,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "PostgreSQL|db.r7g.2xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.2xlarge",
+      "hourly": 1.1476,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "PostgreSQL|db.r7g.4xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.4xlarge",
+      "hourly": 2.2952,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "PostgreSQL|db.r7g.8xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.8xlarge",
+      "hourly": 4.5904,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "PostgreSQL|db.r7g.large": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.large",
+      "hourly": 0.2869,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "PostgreSQL|db.r7g.xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7g.xlarge",
+      "hourly": 0.5738,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "PostgreSQL|db.r7i.12xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.12xlarge",
+      "hourly": 7.2,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "PostgreSQL|db.r7i.16xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.16xlarge",
+      "hourly": 9.6,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "PostgreSQL|db.r7i.24xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.24xlarge",
+      "hourly": 14.4,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "PostgreSQL|db.r7i.2xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.2xlarge",
+      "hourly": 1.2,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "PostgreSQL|db.r7i.48xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.48xlarge",
+      "hourly": 28.8,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "PostgreSQL|db.r7i.4xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.4xlarge",
+      "hourly": 2.4,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "PostgreSQL|db.r7i.8xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.8xlarge",
+      "hourly": 4.8,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "PostgreSQL|db.r7i.large": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.large",
+      "hourly": 0.3,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "PostgreSQL|db.r7i.xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r7i.xlarge",
+      "hourly": 0.6,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    },
+    "PostgreSQL|db.r8g.12xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.12xlarge",
+      "hourly": 6.886,
+      "vcpu": 48,
+      "memory": "384 GiB"
+    },
+    "PostgreSQL|db.r8g.16xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.16xlarge",
+      "hourly": 9.181,
+      "vcpu": 64,
+      "memory": "512 GiB"
+    },
+    "PostgreSQL|db.r8g.24xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.24xlarge",
+      "hourly": 13.771,
+      "vcpu": 96,
+      "memory": "768 GiB"
+    },
+    "PostgreSQL|db.r8g.2xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.2xlarge",
+      "hourly": 1.148,
+      "vcpu": 8,
+      "memory": "64 GiB"
+    },
+    "PostgreSQL|db.r8g.48xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.48xlarge",
+      "hourly": 27.542,
+      "vcpu": 192,
+      "memory": "1536 GiB"
+    },
+    "PostgreSQL|db.r8g.4xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.4xlarge",
+      "hourly": 2.295,
+      "vcpu": 16,
+      "memory": "128 GiB"
+    },
+    "PostgreSQL|db.r8g.8xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.8xlarge",
+      "hourly": 4.59,
+      "vcpu": 32,
+      "memory": "256 GiB"
+    },
+    "PostgreSQL|db.r8g.large": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.large",
+      "hourly": 0.287,
+      "vcpu": 2,
+      "memory": "16 GiB"
+    },
+    "PostgreSQL|db.r8g.xlarge": {
+      "engine": "PostgreSQL",
+      "instanceType": "db.r8g.xlarge",
+      "hourly": 0.574,
+      "vcpu": 4,
+      "memory": "32 GiB"
+    }
+  },
+  "ebs": {
+    "gp3": {
+      "perGbMonth": 0.0912,
+      "usagetype": "APN2-EBS:VolumeUsage.gp3"
+    }
+  }
+}
