@@ -2,6 +2,7 @@
 // Vite + React 독립 앱. Tailwind + lucide-react 필요.
 import { useState, useEffect, useMemo, useRef } from "react";
 import { Plus, Trash2, Save, FolderOpen, Server, Database, Network, X, Copy, Upload, RefreshCw, CheckCircle2, AlertCircle } from "lucide-react";
+import DiagramPanel from "./DiagramPanel";
 
 const HOURS_PER_MONTH = 730;
 const LS_PRICES = "awsEstimator.priceData";
@@ -467,6 +468,8 @@ export default function App() {
           데이터 전송·RDS 스토리지는 내장 근사 단가입니다.
           무료 티어·예약·Savings Plan·세금 미반영. 예산 확정은 calculator.aws에서 확인하세요.
         </p>
+
+        <DiagramPanel items={items} prices={prices} region="ap-northeast-2" />
       </div>
 
       {showPrices && <PriceDataModal onApply={applyPrices} onClose={() => setShowPrices(false)} />}
