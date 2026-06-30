@@ -450,28 +450,31 @@ export default function App() {
           })}
         </div>
 
-        <div className="sticky bottom-4 mt-5 rounded-xl border border-slate-200 bg-white p-4 shadow-lg">
-          <div className="flex items-center justify-between">
-            <div>
-              <span className="text-sm text-slate-500">월 예상 합계 (서울)</span>
-              <div className="text-3xl font-bold text-slate-800">{fmt(total)}</div>
-            </div>
-            <div className="text-right text-sm text-slate-500">
-              <div>연간 약</div>
-              <div className="text-lg font-semibold text-slate-700">{fmt(total * 12)}</div>
-            </div>
-          </div>
-        </div>
+        <DiagramPanel items={items} prices={prices} region="ap-northeast-2" />
 
-        <p className="mt-4 text-xs leading-relaxed text-slate-400">
+        <p className="mt-6 text-xs leading-relaxed text-slate-400">
           EC2·RDS·EBS gp3 단가는 prices.json(AWS Price List Bulk API, 서울)에서 로드됩니다.
           데이터 전송·RDS 스토리지는 내장 근사 단가입니다.
           무료 티어·예약·Savings Plan·세금 미반영. 예산 확정은 calculator.aws에서 확인하세요.
         </p>
 
-        <DiagramPanel items={items} prices={prices} region="ap-northeast-2" />
+        {/* sticky 합계 박스 높이만큼 하단 여백 */}
+        <div className="h-24" />
       </div>
 
+      {/* 합계 sticky 바 — 항상 하단 고정 */}
+      <div className="sticky bottom-4 mx-auto mt-5 max-w-3xl rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-lg">
+        <div className="flex items-center justify-between">
+          <div>
+            <span className="text-sm text-slate-500">월 예상 합계 (서울)</span>
+            <div className="text-3xl font-bold text-slate-800">{fmt(total)}</div>
+          </div>
+          <div className="text-right text-sm text-slate-500">
+            <div>연간 약</div>
+            <div className="text-lg font-semibold text-slate-700">{fmt(total * 12)}</div>
+          </div>
+        </div>
+      </div>
       {showPrices && <PriceDataModal onApply={applyPrices} onClose={() => setShowPrices(false)} />}
 
       {showSaved && (
